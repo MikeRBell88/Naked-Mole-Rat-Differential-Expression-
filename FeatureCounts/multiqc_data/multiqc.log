@@ -1,0 +1,18 @@
+[2022-08-05 11:48:58,865] multiqc                                            [DEBUG  ]  This is MultiQC v1.13.dev0
+[2022-08-05 11:48:58,866] multiqc                                            [DEBUG  ]  Command used: /home/mrbell/.conda/envs/project_env/bin/multiqc .
+[2022-08-05 11:48:59,124] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.12
+[2022-08-05 11:48:59,124] multiqc                                            [DEBUG  ]  Working dir : /storage/mrbell/FeatureCounts/MultiSample
+[2022-08-05 11:48:59,124] multiqc                                            [DEBUG  ]  Template    : default
+[2022-08-05 11:48:59,124] multiqc                                            [DEBUG  ]  Running Python 3.8.13 (default, Mar 28 2022, 11:38:47)  [GCC 7.5.0]
+[2022-08-05 11:48:59,125] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2022-08-05 11:48:59,125] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpb9_r0qwl
+[2022-08-05 11:48:59,292] multiqc                                            [INFO   ]  Search path : /storage/mrbell/FeatureCounts/MultiSample
+[2022-08-05 11:48:59,366] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 5] // [skipped_filesize_limit: 1] // [skipped_no_match: 1]
+[2022-08-05 11:49:01,541] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.2.2
+[2022-08-05 11:49:01,587] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 224 reports
+[2022-08-05 11:49:11,139] multiqc                                            [INFO   ]  Compressing plot data
+[2022-08-05 11:49:11,160] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2022-08-05 11:49:11,160] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2022-08-05 11:49:11,160] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpb9_r0qwl/multiqc_data' to '/storage/mrbell/FeatureCounts/MultiSample/multiqc_data'
+[2022-08-05 11:49:11,313] multiqc                                            [INFO   ]  MultiQC complete
+[2022-08-05 11:49:11,314] multiqc                                            [WARNING]  1 flat-image plot used in the report due to large sample numbers
