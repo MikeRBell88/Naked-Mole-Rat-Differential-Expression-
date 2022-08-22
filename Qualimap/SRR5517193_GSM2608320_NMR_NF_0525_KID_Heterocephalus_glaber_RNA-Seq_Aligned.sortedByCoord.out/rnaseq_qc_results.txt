@@ -1,0 +1,55 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = /storage/mrbell/aligned_BAMs/MultiSample/SRR5517193_GSM2608320_NMR_NF_0525_KID_Heterocephalus_glaber_RNA-Seq_Aligned.sortedByCoord.out.bam
+    gff file = /storage/mrbell/Genomes/Mouse/Genome/Mus_musculus.GRCm39.107.gtf
+    counting algorithm = proportional
+    protocol = non-strand-specific
+
+
+>>>>>>> Reads alignment
+
+    reads aligned  = 5,223,829
+    total alignments = 7,950,815
+    secondary alignments = 2,726,986
+    non-unique alignments = 0
+    aligned to genes  = 6,190,956
+    ambiguous alignments = 242,949
+    no feature assigned = 1,500,531
+    not aligned = 0
+    SSP estimation (fwd/rev) = 0.52 / 0.48
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  6,190,956 (80.49%)
+    intronic = 812,158 (10.56%)
+    intergenic = 688,373 (8.95%)
+    overlapping exon = 521,824 (6.78%)
+    rRNA = 0 (0%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0.3
+    3' bias = 0.3
+    5'-3' bias = 1.39
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 830,359
+
+    AGGT : 6.1%
+    ACCT : 5.64%
+    TCCT : 4.15%
+    AGGA : 3.89%
+    AGAT : 2.96%
+    AGCT : 2.95%
+    ATCT : 2.85%
+    AGGC : 2.64%
+    GCCT : 2.52%
+    AGGG : 2.5%
+    CCCT : 2.46%
